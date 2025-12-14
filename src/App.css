@@ -1,0 +1,62 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio-box .portfolio-item{
+    position: relative;
+  }
+  .portfolio-box .image-box img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+  }
+  .mobile-menu {
+    display: none;
+    /* Add your styles here */
+  }
+  
+  .mobile-menu.opened {
+    display: block;
+    /* Add your styles here */
+  }
+  .mean-nav ul li{
+    display: flex !important;
+  }
+  .mean-nav ul li a {
+    display: block;
+    float: left;
+    width: 90%;
+    padding: 10px 5%;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+    border-top: 1px solid #e0e3ed;
+    text-decoration: none;
+    text-transform: uppercase;
+  }  
+  /* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+ */
